@@ -26,6 +26,9 @@
 #    define NO_ACTION_ONESHOT
 #endif // __arm__
 
+#undef MATRIX_ROW_PINS
+#define MATRIX_ROW_PINS { GP29, GP26, GP16, GP4, GP9 }
+
 #ifdef AUTO_MOUSE_DEFAULT_LAYER
 #undef AUTO_MOUSE_DEFAULT_LAYER
 #endif
