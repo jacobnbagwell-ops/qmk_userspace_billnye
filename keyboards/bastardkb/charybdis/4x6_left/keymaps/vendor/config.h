@@ -21,6 +21,9 @@
 #    define DYNAMIC_KEYMAP_LAYER_COUNT 4
 #endif // VIA_ENABLE
 
+#undef MATRIX_ROW_PINS
+#define MATRIX_ROW_PINS { GP29, GP26, GP16, GP4, GP9 }
+
 #ifndef __arm__
 /* Disable unused features. */
 #    define NO_ACTION_ONESHOT
